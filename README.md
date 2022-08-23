@@ -41,8 +41,8 @@ Ich möchte ein Number Guessing Spiel in C# erstellen.
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
 | 1.A  |23.08.2022|Ich|Informierung und Dokumentation|3 Arbeitspakete|
-| 1.B  |30.08.2022|Ich|Realisierung wird angefangen|4 Arbeitspakete|
-| 1.C  |06.09.2022|Ich|Realisierung wird fortgesetzt, beendet und getestet|4 Arbeitspakete|
+| 1.B  |30.08.2022|Ich|Realisierung wird angefangen, Zahl Generator wird erstellt, Erraten konzept wird erstellt und meldungen bei falscher Zahl|4 Arbeitspakete|
+| 1.C  |06.09.2022|Ich|Realisierung wird fortgesetzt, UserStories werden getestet und gefixt, mögliche error werden behoben und beendet|4 Arbeitspakete|
 | 1.D  |13.09.2022|Ich|Lehrbericht wird bearbeitet und Projektdokumentation wird ergänzt|4 Arbeitspakete|
 Total: 
 
