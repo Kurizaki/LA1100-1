@@ -12,23 +12,23 @@ Koelewijn Keanu
 
 ### 1.1 Ihr Projekt
 
-Ich möchte ein Number Guessing Spiel in C# Erstellen.
+Ich möchte ein Number Guessing Spiel in C# erstellen.
 
 ### 1.2 User Stories
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1    | Muss            |Funktional| Als ein Spieler möchte ich eine Zufälige Zahl generieren, damit ich sie erraten kann.|
+| 1    | Muss            |Funktional| Als ein Spieler möchte ich eine zufällige Zahl generieren, damit ich sie erraten kann.|
 | 2    | Muss            |Funktional|Als ein Spieler möchte ich nur eine Zahl eingeben können, damit ich das Spiel fortsetzen kann.|
 | 3    | Muss            |Funktional| Als ein Spieler möchte ich darauf hingewiesen werden, wenn die gewünschte Zahl nicht erreicht wird.|
-| 4    | Kann            |Funktional|Als ein Spieler möchte ich das Spiel neustarten können, damit ich das Programm nicht erneut ausführen muss.|
+| 4    | Kann            |Funktional|Als ein Spieler möchte ich das Spiel neu starten können, damit ich das Programm nicht erneut ausführen muss.|
 
 ### 1.3 Testfälle
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| 1.1  |Apk gestartet, zufällige Zahl generiert und wartet auf Eingabe|Gewünschte Zahl wird eingegeben|SIe haben Gewonnen|
-| 2.1  |Apk gestartet, zufällige Zahl generiert und wartet auf Eingabe|"Buchstabe"|Bitte geben sie eine Gültige Zahl ein|
+| 1.1  |Apk gestartet, zufällige Zahl generiert und wartet auf Eingabe|Gewünschte Zahl wird eingegeben|Sie haben gewonnen|
+| 2.1  |Apk gestartet, zufällige Zahl generiert und wartet auf Eingabe|"Buchstabe"|Bitte geben Sie eine gültige Zahl ein|
 | 3.1  |Apk gestartet, zufällige Zahl generiert|kleiner Zahl|Sie haben zu tief geschätzt. Versuchen sie es nochmal.|
 | 4.1  |Apk gestartet, zufällige Zahl erraten, Wollen sie nochmal spielen?|Ja|Apk wird wiederholt|
 
