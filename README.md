@@ -40,9 +40,10 @@ Ich möchte ein Number Guessing Spiel in C# erstellen.
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |       |           |              |               |
-| ...  |       |           |              |               |
-
+| 1.A  |23.08.2022|Ich|Informierung und Dokumentation|3 Arbeitspakete|
+| 1.B  |30.08.2022|Ich|Realisierung wird angefangen|4 Arbeitspakete|
+| 1.C  |06.09.2022|Ich|Realisierung wird fortgesetzt, beendet und getestet|4 Arbeitspakete|
+| 1.D  |13.09.2022|Ich|Lehrbericht wird bearbeitet und Projektdokumentation wird ergänzt|4 Arbeitspakete|
 Total: 
 
 ✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, auf die sich das Arbeitspaket bezieht, und `m` von `A` an nach oben buchstabiert. Beispiel: Das dritte Arbeitspaket, das die zweite User Story betrifft, hat also die Nummer `2.C`.
