@@ -4,8 +4,8 @@ Koelewijn Keanu
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-|23.08.2022| 0.0.1 |Erstes Projekt angefangen und das Informieren|
-|       | ...     |                                                              |
+|23.08.2022| 0.0.1|Erstes Projekt angefangen und das Informieren|
+|30.08.2022| 0.0.2| Mit der Realisierung angefangen und fast fertig               |
 |       | 1.0.0   |                                                              |
 
 ## 1 Informieren
