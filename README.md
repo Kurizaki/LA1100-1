@@ -2,35 +2,37 @@
 
 Koelewijn Keanu
 
-| Datum | Version | Zusammenfassung                                              |
+| Datum | Version | Zusammenfassung|
 | ----- | ------- | ------------------------------------------------------------ |
-|23.08.2022| 0.0.1|Erstes Projekt angefangen und das Informieren|
-|30.08.2022| 0.0.2| Mit der Realisierung angefangen und fast fertig               |
-|06.09.2022       | 0.0.3   |  Realisierung abgeschlossen                                                            |
+|23.08.2022| 0.0.1|Erstes Projekt angefangen, Informierung und Planung wird durchgeführt und dokumentiert.|
+|30.08.2022| 0.0.2|Das Programmieren (realisieren) wurde angefangen, Generierung, Auswahl der Zahl wurde erstellt und mögliche Fehleingaben wurden angefangen zu umgehen.|
+|06.09.2022 | 0.0.3|Neustart Funktion wurde eingebaut, alle möglichen Fehlereingaben wurden umgangen, Schwierigkeitsgrad wurde hinzugefügt, Startsequenz und Einleitung wurde eingebaut, Programm wurde übersichtlicher gestaltet und die Realisierung wurde abgeschlossen.|
+
 
 ## 1 Informieren
 
 ### 1.1 Ihr Projekt
 
-Ich möchte ein Number Guessing Spiel in C# erstellen.
+Ich möchte ein Number Guesser Spiel in C# erstellen.
 
 ### 1.2 User Stories
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-|1| Kann |Qualität| Als ein Spieler möchte ich eine Startsequenz erhalten, wenn ich das programm starte.|
-|2| Kann|Qualität| Als ein Spieler möchte ich eine Spielerklärung erhalten, wenn ich das programm starte.|
-|3| Kann|Qualität| Als ein Spieler möchte ich ein übersichtliches spiel haben.|
+|1| Kann |Qualität| Als ein Spieler möchte ich eine Startsequenz erhalten, wenn ich das Programm starte.|
+|2| Kann|Qualität| Als ein Spieler möchte ich eine Spielerklärung erhalten, wenn ich das Programm starte.|
+|3| Kann|Qualität| Als ein Spieler möchte ich ein übersichtliches Spiel haben.|
 |4| kann |Funktional|Als ein Spieler möchte ich einen Schwierigkeitsgrad einstellen können|
 |5| Muss |Funktional| Als ein Spieler möchte ich eine zufällige Zahl generieren, damit ich sie erraten kann.|
 |6| Muss|Funktional|Als ein Spieler möchte ich nur eine Zahl eingeben können, damit ich das Spiel fortsetzen kann.|
 |7| Muss|Funktional|Als ein Spieler möchte ich darauf hingewiesen werden, wenn die gewünschte Zahl nicht erreicht wird.|
-|8| Muss|Funktional|Als ein Spieler möchte ich darauf hingewiesen werden wenn ich eine Fehleingabe getätigt habe.|
-|9| Muss|Funktional|Als ein Spieler möchte ich angezeigt werden ob meine schätzung zu hoch war oder nicht.|
-|10| Muss|Funktional|Als ein Spieler möchte ich mehrere schätzungen eingeben können.|
-|11| Muss|Funktional|Als ein Spieler möchte ich angezeigt werden das meine schätzung richtig war |
-|12| Kann|Funktional|Als ein Spieler möchte ich die möglichkeit haben, das Spiel neu starten zu können, damit ich das Programm nicht erneut ausführen muss.|
-|13| Kann|Qualität|Als ein Spieler möchte ich das nach dem neustart nicht die ganze startsequenz wiederholt wird.|
+|8| Muss|Funktional|Als ein Spieler möchte ich darauf hingewiesen werden, wenn ich eine Fehleingabe getätigt habe.|
+|9| Muss|Funktional|Als ein Spieler möchte ich angezeigt werden, ob meine Schätzung zu hoch war oder nicht.|
+|10| Muss|Funktional|Als ein Spieler möchte ich mehrere Schätzungen eingeben können.|
+|11| Muss|Funktional|Als ein Spieler möchte ich angezeigt werden, das meine Schätzung richtig war |
+|12| Kann|Funktional|Als ein Spieler möchte ich die Möglichkeit haben, das Spiel neu starten zu können, damit ich das Programm nicht erneut ausführen muss.|
+|13| Kann|Qualität|Als ein Spieler möchte ich, das nach dem Neustart nicht die ganze Startsequenz wiederholt wird.|
+
 ### 1.3 Testfälle
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
@@ -48,11 +50,14 @@ Ich möchte ein Number Guessing Spiel in C# erstellen.
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |23.08.2022|Ich|Informierung und Dokumentation|3 Arbeitspakete|
-| 1.B  |30.08.2022|Ich|Realisierung wird angefangen, Zahl Generator wird erstellt, Erraten konzept wird erstellt und meldungen bei falscher Zahl|4 Arbeitspakete|
-| 1.C  |06.09.2022|Ich|Realisierung wird fortgesetzt, UserStories werden getestet und gefixt, mögliche error werden behoben und beendet|4 Arbeitspakete|
-| 1.D  |13.09.2022|Ich|Lehrbericht wird bearbeitet und Projektdokumentation wird ergänzt|4 Arbeitspakete|
-Total: 
+| 1.A  |30.08.2022|Ich|Realisierung wird angefangen, zufällige Zahl wird generiert|30min|
+| 1.B  |30.08.2022|Ich|Es wird angezeigt, ob die eingegebene Zahl zu hoch oder zu klein ist.|40min|
+| 1.C  |30.08.2022|Ich|Eine Meldung wird angezeigt, wenn man die Zahl erraten hat. |40min|
+| 1.D  |30.08.2022|Ich|Das Programm erkennt ungültige Zahlen und reagiert entsprechend darauf.|40min|
+| 1.E  |06.09.2022|Ich|Eine Schleife wird erstellt, damit man das Programm wiederholen kann|30min|
+| 1.F  |06.09.2022|Ich|Catch und try Funktion, wird bei Fehler eingaben angewendet und das Programm reagiert dementsprechend darauf.|60min|
+| 1.G  |06.09.2022|Ich|Restliche Funktionen, die kein Muss sind können, werden eingebaut, wenn Zeit vorhanden ist.|110min|
+Total: 300min
 
 ✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, auf die sich das Arbeitspaket bezieht, und `m` von `A` an nach oben buchstabiert. Beispiel: Das dritte Arbeitspaket, das die zweite User Story betrifft, hat also die Nummer `2.C`.
 
