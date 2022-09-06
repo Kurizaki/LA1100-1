@@ -6,7 +6,7 @@ Koelewijn Keanu
 | ----- | ------- | ------------------------------------------------------------ |
 |23.08.2022| 0.0.1|Erstes Projekt angefangen und das Informieren|
 |30.08.2022| 0.0.2| Mit der Realisierung angefangen und fast fertig               |
-|       | 1.0.0   |                                                              |
+|06.09.2022       | 0.0.3   |  Realisierung abgeschlossen                                                            |
 
 ## 1 Informieren
 
@@ -18,11 +18,19 @@ Ich möchte ein Number Guessing Spiel in C# erstellen.
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1    | Muss            |Funktional| Als ein Spieler möchte ich eine zufällige Zahl generieren, damit ich sie erraten kann.|
-| 2    | Muss            |Funktional|Als ein Spieler möchte ich nur eine Zahl eingeben können, damit ich das Spiel fortsetzen kann.|
-| 3    | Muss            |Funktional| Als ein Spieler möchte ich darauf hingewiesen werden, wenn die gewünschte Zahl nicht erreicht wird.|
-| 4    | Kann            |Funktional|Als ein Spieler möchte ich das Spiel neu starten können, damit ich das Programm nicht erneut ausführen muss.|
-
+|1| Kann |Qualität| Als ein Spieler möchte ich eine Startsequenz erhalten, wenn ich das programm starte.|
+|2| Kann|Qualität| Als ein Spieler möchte ich eine Spielerklärung erhalten, wenn ich das programm starte.|
+|3| Kann|Qualität| Als ein Spieler möchte ich ein übersichtliches spiel haben.|
+|4| kann |Funktional|Als ein Spieler möchte ich einen Schwierigkeitsgrad einstellen können|
+|5| Muss |Funktional| Als ein Spieler möchte ich eine zufällige Zahl generieren, damit ich sie erraten kann.|
+|6| Muss|Funktional|Als ein Spieler möchte ich nur eine Zahl eingeben können, damit ich das Spiel fortsetzen kann.|
+|7| Muss|Funktional|Als ein Spieler möchte ich darauf hingewiesen werden, wenn die gewünschte Zahl nicht erreicht wird.|
+|8| Muss|Funktional|Als ein Spieler möchte ich darauf hingewiesen werden wenn ich eine Fehleingabe getätigt habe.|
+|9| Muss|Funktional|Als ein Spieler möchte ich angezeigt werden ob meine schätzung zu hoch war oder nicht.|
+|10| Muss|Funktional|Als ein Spieler möchte ich mehrere schätzungen eingeben können.|
+|11| Muss|Funktional|Als ein Spieler möchte ich angezeigt werden das meine schätzung richtig war |
+|12| Kann|Funktional|Als ein Spieler möchte ich die möglichkeit haben, das Spiel neu starten zu können, damit ich das Programm nicht erneut ausführen muss.|
+|13| Kann|Qualität|Als ein Spieler möchte ich das nach dem neustart nicht die ganze startsequenz wiederholt wird.|
 ### 1.3 Testfälle
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
