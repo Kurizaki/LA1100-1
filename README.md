@@ -71,8 +71,14 @@ Total: 300min
 
 | AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
 | ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  |20.08.2022|ich|4 Arebitspakete|4 Arbeitspakete|
-| ...  |       |           |               |                   |
+| 1.A  |30.08.2022|ich|30min|20min|
+| 1.B  |30.08.2022|ich|40min|35min|
+| 1.C  |30.08.2022|ich|40min|45min|
+| 1.D  |30.08.2022|ich|40min|35min|
+| 1.E  |06.09.2022|ich|30min|20min|
+| 1.F  |06.09.2022|ich|60min|50min|
+| 1.G  |06.09.2022|ich|60min|80min|
+
 
 ✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
 
