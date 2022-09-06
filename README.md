@@ -56,7 +56,7 @@ Ich möchte ein Number Guesser Spiel in C# erstellen.
 | 1.D  |30.08.2022|Ich|Das Programm erkennt ungültige Zahlen und reagiert entsprechend darauf.|40min|
 | 1.E  |06.09.2022|Ich|Eine Schleife wird erstellt, damit man das Programm wiederholen kann|30min|
 | 1.F  |06.09.2022|Ich|Catch und try Funktion, wird bei Fehler eingaben angewendet und das Programm reagiert dementsprechend darauf.|60min|
-| 1.G  |06.09.2022|Ich|Restliche Funktionen, die kein Muss sind können, werden eingebaut, wenn Zeit vorhanden ist.|110min|
+| 1.G  |06.09.2022|Ich|Restliche Funktionen, die kein Muss sind können, werden eingebaut, wenn Zeit vorhanden ist.|60min|
 Total: 300min
 
 ✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, auf die sich das Arbeitspaket bezieht, und `m` von `A` an nach oben buchstabiert. Beispiel: Das dritte Arbeitspaket, das die zweite User Story betrifft, hat also die Nummer `2.C`.
