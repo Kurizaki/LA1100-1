@@ -37,10 +37,20 @@ Ich möchte ein Number Guesser Spiel in C# erstellen.
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| 1.1  |Apk gestartet, zufällige Zahl generiert und wartet auf Eingabe|Gewünschte Zahl wird eingegeben|Sie haben gewonnen|
-| 2.1  |Apk gestartet, zufällige Zahl generiert und wartet auf Eingabe|"Buchstabe"|Bitte geben Sie eine gültige Zahl ein|
-| 3.1  |Apk gestartet, zufällige Zahl generiert|kleiner Zahl|Sie haben zu tief geschätzt. Versuchen sie es nochmal.|
-| 4.1  |Apk gestartet, zufällige Zahl erraten, Wollen sie nochmal spielen?|Ja|Apk wird wiederholt|
+| 1.1  |Programm wird gestartet||Startsequenz wird eingeleitet|
+| 2.2  |Startsequenz wurde durchgeführt|Enter|Spiel-Erklärung wird angezeigt|
+| 3.3  |Spielerklärung wurden angezeigt|Enter|Schwierigkeitsgrad Eingabe wird angezeigt|
+|4.4 |Schwierigkeitsgrad Eingabe wird angezeigt|1-3|Schwierigkeitsgrad wird gespeichert und spiel wird in dementsprechende Schwierigkeit ausgeführt|
+|4.5 |Schwierigkeitsgrad Eingabe wird angezeigt|Ungültige Zahl oder Buchstabe|"Ungültige Zahl" wird angezeigt, bis eine Zahl zwischen 1 und 3 eingegeben wird.|
+|5.6 |Spiel wird gestartet||Zufällige Zahl wird automatisch je nach Schwierigkeit generiert|
+|6.7 |Spiel wird gestartet|Zufällige Zahl|Spiel wird fortgesetzt|
+|7.8 |Zufällige Zahl wird eingegeben|Zufällige Zahl|Es wird darauf hingewiesen, ob die eingegebene Zahl die gewünschte Zahl ist oder nicht.|
+|8.9 |Fehlereingabe wird eingegeben|Buchstabe oder ungültige Zahl|Es wird darauf hingewiesen und das Spiel wird fortgesetzt|
+|9.10 |Zufällige Zahl wird eingegeben|Zufällige Zahl|Wenn die Zahl grösser oder kleiner als die generierte Zahl ist, wird das ausgegeben|
+|10.11 |Zufällige Zahl wird eingegeben|Zufällige Zahl|Der Vorgang wird wiederholt und man kann erneut eine Zahl eingeben.|
+|11.12 |Generierte Zahl wird eingegeben|Generierte Zahl|Es wird angezeigt das der Spieler gewonnen hat und wie viele versuche er gebraucht hat.|
+|12.13 |Generierte Zahl wurde eingegeben||Man kann das Spiel wiederholen mit Ja oder Nein|
+|13.14 |Generierte Zahl wird eingegeben und es wird angezeigt, ob man Neustarten möchte|Ja/Nein|Spiel wird neu gestartet ohne Startsequenz und Spiel-Erklärung|
 
 ### 1.4 Diagramme
 ![Number Guessing Game noch gegenauer](https://user-images.githubusercontent.com/110892283/186118243-1b8f3061-4e03-4b51-ad8a-db9c58439c1b.png)
@@ -50,13 +60,13 @@ Ich möchte ein Number Guesser Spiel in C# erstellen.
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |30.08.2022|Ich|Realisierung wird angefangen, zufällige Zahl wird generiert|30min|
-| 1.B  |30.08.2022|Ich|Es wird angezeigt, ob die eingegebene Zahl zu hoch oder zu klein ist.|40min|
-| 1.C  |30.08.2022|Ich|Eine Meldung wird angezeigt, wenn man die Zahl erraten hat. |40min|
-| 1.D  |30.08.2022|Ich|Das Programm erkennt ungültige Zahlen und reagiert entsprechend darauf.|40min|
-| 1.E  |06.09.2022|Ich|Eine Schleife wird erstellt, damit man das Programm wiederholen kann|30min|
-| 1.F  |06.09.2022|Ich|Catch und try Funktion, wird bei Fehler eingaben angewendet und das Programm reagiert dementsprechend darauf.|60min|
-| 1.G  |06.09.2022|Ich|Restliche Funktionen, die kein Muss sind können, werden eingebaut, wenn Zeit vorhanden ist.|60min|
+| 1.A  |30.08.2022|Keanu Koelewijn|Realisierung wird angefangen, zufällige Zahl wird generiert|30min|
+| 1.B  |30.08.2022|Keanu Koelewijn|Es wird angezeigt, ob die eingegebene Zahl zu hoch oder zu klein ist.|40min|
+| 1.C  |30.08.2022|Keanu Koelewijn|Eine Meldung wird angezeigt, wenn man die Zahl erraten hat. |40min|
+| 1.D  |30.08.2022|Keanu Koelewijn|Das Programm erkennt ungültige Zahlen und reagiert entsprechend darauf.|40min|
+| 1.E  |06.09.2022|Keanu Koelewijn|Eine Schleife wird erstellt, damit man das Programm wiederholen kann|30min|
+| 1.F  |06.09.2022|Keanu Koelewijn|Catch und try Funktion, wird bei Fehler eingaben angewendet und das Programm reagiert dementsprechend darauf.|60min|
+| 1.G  |06.09.2022|Keanu Koelewijn|Restliche Funktionen, die kein Muss sind können, werden eingebaut, wenn Zeit vorhanden ist.|60min|
 Total: 300min
 
 ## 3 Entscheiden
@@ -67,13 +77,13 @@ Während der Realisierung wurden folgende User Stories ausgedacht und hinzugefü
 
 | AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
 | ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  |30.08.2022|ich|30min|20min|
-| 1.B  |30.08.2022|ich|40min|35min|
-| 1.C  |30.08.2022|ich|40min|45min|
-| 1.D  |30.08.2022|ich|40min|35min|
-| 1.E  |06.09.2022|ich|30min|20min|
-| 1.F  |06.09.2022|ich|60min|50min|
-| 1.G  |06.09.2022|ich|60min|80min|
+| 1.A  |30.08.2022|Keanu Koelewijn|30min|20min|
+| 1.B  |30.08.2022|Keanu Koelewijn|40min|35min|
+| 1.C  |30.08.2022|Keanu Koelewijn|40min|45min|
+| 1.D  |30.08.2022|Keanu Koelewijn|40min|35min|
+| 1.E  |06.09.2022|Keanu Koelewijn|30min|20min|
+| 1.F  |06.09.2022|Keanu Koelewijn|60min|50min|
+| 1.G  |06.09.2022|Keanu Koelewijn|60min|80min|
 
 ## 5 Kontrollieren
 
