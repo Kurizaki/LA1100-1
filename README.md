@@ -67,6 +67,7 @@ Ich möchte ein Number Guesser Spiel in C# erstellen.
 | 1.E  |06.09.2022|Keanu Koelewijn|Eine Schleife wird erstellt, damit man das Programm wiederholen kann|30min|
 | 1.F  |06.09.2022|Keanu Koelewijn|Catch und try Funktion, wird bei Fehler eingaben angewendet und das Programm reagiert dementsprechend darauf.|60min|
 | 1.G  |06.09.2022|Keanu Koelewijn|Restliche Funktionen, die kein Muss sind können, werden eingebaut, wenn Zeit vorhanden ist.|60min|
+
 Total: 300min
 
 ## 3 Entscheiden
