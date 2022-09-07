@@ -5,8 +5,8 @@ Koelewijn Keanu
 | Datum | Version | Zusammenfassung|
 | ----- | ------- | ------------------------------------------------------------ |
 |23.08.2022| 0.0.1|Erstes Projekt angefangen, Informierung und Planung wird durchgeführt und dokumentiert.|
-|30.08.2022| 0.0.2|Das Programmieren (realisieren) wurde angefangen, Generierung, Auswahl der Zahl wurde erstellt und mögliche Fehleingaben wurden angefangen zu umgehen.|
-|06.09.2022 | 0.0.3|Neustart Funktion wurde eingebaut, alle möglichen Fehlereingaben wurden umgangen, Schwierigkeitsgrad wurde hinzugefügt, Startsequenz und Einleitung wurde eingebaut, Programm wurde übersichtlicher gestaltet und die Realisierung wurde abgeschlossen.|
+|30.08.2022| 0.0.2|(User Sotries 5-11) Das Programmieren (realisieren) wurde angefangen, Generierung, Auswahl der Zahl wurde erstellt und mögliche Fehleingaben wurden angefangen zu umgehen.|
+|06.09.2022 | 0.0.3|(User Stories 1-4, 12-13) Neustart Funktion wurde eingebaut, alle möglichen Fehlereingaben wurden umgangen, Schwierigkeitsgrad wurde hinzugefügt, Startsequenz und Einleitung wurde eingebaut, Programm wurde übersichtlicher gestaltet und die Realisierung wurde abgeschlossen.|
 
 
 ## 1 Informieren
@@ -59,13 +59,9 @@ Ich möchte ein Number Guesser Spiel in C# erstellen.
 | 1.G  |06.09.2022|Ich|Restliche Funktionen, die kein Muss sind können, werden eingebaut, wenn Zeit vorhanden ist.|60min|
 Total: 300min
 
-✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, auf die sich das Arbeitspaket bezieht, und `m` von `A` an nach oben buchstabiert. Beispiel: Das dritte Arbeitspaket, das die zweite User Story betrifft, hat also die Nummer `2.C`.
-
-✍️ Ein Arbeitspaket sollte etwa 45' für eine Person in Anspruch nehmen. Die totale Anzahl Arbeitspakete sollte etwa Folgendem entsprechen: `Anzahl R-Sitzungen` ╳ `Anzahl Gruppenmitglieder` ╳ `4`. Wenn Sie also zu dritt an einem Projekt arbeiten, für welches zwei R-Sitzungen geplant sind, sollten Sie auf `2` ╳ `3` ╳`4` = `24` Arbeitspakete kommen. Sollten Sie merken, dass Sie hier nicht genügend Arbeitspakte haben, denken Sie sich weitere "Kann"-User Stories für Kapitel 1.2 aus.
-
 ## 3 Entscheiden
 
-✍️ Dokumentieren Sie hier Ihre Entscheidungen und Annahmen, die Sie im Bezug auf Ihre User Stories und die Implementierung getroffen haben.
+Während der Realisierung wurden folgende User Stories ausgedacht und hinzugefügt (1-4 und 12.13)
 
 ## 4 Realisieren
 
@@ -78,9 +74,6 @@ Total: 300min
 | 1.E  |06.09.2022|ich|30min|20min|
 | 1.F  |06.09.2022|ich|60min|50min|
 | 1.G  |06.09.2022|ich|60min|80min|
-
-
-✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
 
 ## 5 Kontrollieren
 
