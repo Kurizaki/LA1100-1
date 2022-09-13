@@ -92,10 +92,23 @@ Während der Realisierung wurden folgende User Stories ausgedacht und hinzugefü
 
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
-| 1.1  |       |          |        |
-| ...  |       |          |        |
+| 1.1  |13.09.2022|Funktioniert|Keanu Koelewijn|
+| 2.2  |13.09.2022|Funktioniert|Keanu Koelewijn|
+| 3.3  |13.09.2022|Funktioniert|Keanu Koelewijn|
+| 4.4  |13.09.2022|Funktioniert|Keanu Koelewijn|
+| 4.5  |13.09.2022|Funktioniert|Keanu Koelewijn|
+| 5.6  |13.09.2022|Funktioniert|Keanu Koelewijn|
+| 6.7  |13.09.2022|Funktioniert|Keanu Koelewijn|
+| 7.8  |13.09.2022|Funktioniert|Keanu Koelewijn|
+| 8.9  |13.09.2022|Funktioniert|Keanu Koelewijn|
+| 9.10  |13.09.2022|Funktioniert|Keanu Koelewijn|
+| 10.11  |13.09.2022|Funktioniert|Keanu Koelewijn|
+| 11.12  |13.09.2022|Funktioniert|Keanu Koelewijn|
+| 12.13  |13.09.2022|Funktioniert|Keanu Koelewijn|
+| 13.14  |13.09.2022|Funktioniert|Keanu Koelewijn|
+| 14.15  |13.09.2022|Funktioniert|Keanu Koelewijn|
 
-✍️ Vergessen Sie nicht, ein Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
+Alle Tests wurde erfolgreich abgeschlossen, Das Proframm läuft einwandfrei.
 
 ### 5.2 Exploratives Testen
 
