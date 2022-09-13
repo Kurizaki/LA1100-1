@@ -114,10 +114,10 @@ Alle Tests wurde erfolgreich abgeschlossen, Das Proframm läuft einwandfrei.
 
 | BR-№ | Ausgangslage | Eingabe | Erwartete Ausgabe | Tatsächliche Ausgabe |
 | ---- | ------------ | ------- | ----------------- | -------------------- |
-| I    |              |         |                   |                      |
-| ...  |              |         |                   |                      |
+| I    |Zahl erraten, ich werde gefragt. ob ich noch weiter spielen möchte.|Enter|"Ungültige Eingabe"|Programm stürtzt ab.|
 
-✍️ Verwenden Sie römische Ziffern für Ihre Bug Reports, also I, II, III, IV etc.
+
+Explorative Tests wurden von Pascal Oestrich durchgeführt.
 
 ## 6 Auswerten
 
