@@ -38,8 +38,8 @@ Ich möchte ein Number Guesser Spiel in C# erstellen.
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
 | 1.1  |Programm wird gestartet||Startsequenz wird eingeleitet|
-| 2.2  |Startsequenz wurde durchgeführt|Enter|Spiel-Erklärung wird angezeigt|
-| 3.3  |Spielerklärung wurden angezeigt|Enter|Schwierigkeitsgrad Eingabe wird angezeigt|
+| 2.2  |Startsequenz wurde durchgeführt|Beliebige Taste|Spiel-Erklärung wird angezeigt|
+| 3.3  |Spielerklärung wurden angezeigt|Beliebige Taste|Schwierigkeitsgrad Eingabe wird angezeigt|
 |4.4 |Schwierigkeitsgrad Eingabe wird angezeigt|1-3|Schwierigkeitsgrad wird gespeichert und spiel wird in dementsprechende Schwierigkeit ausgeführt|
 |4.5 |Schwierigkeitsgrad Eingabe wird angezeigt|Ungültige Zahl oder Buchstabe|"Ungültige Zahl" wird angezeigt, bis eine Zahl zwischen 1 und 3 eingegeben wird.|
 |5.6 |Spiel wird gestartet||Zufällige Zahl wird automatisch je nach Schwierigkeit generiert|
