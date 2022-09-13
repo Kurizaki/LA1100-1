@@ -7,7 +7,7 @@ Wir mussten ein Number Guesser SPiel in C# erstellen und programmieren.
 
 ## Was habe ich gelernt?
 
-In diesem Projekt, habe ich gelernt wie ich try und catch anwenden kann.
+Ich habe während der Realisierung, vieles neues gelernt, was ich aber am wichtigsten ist, die Try & Catch Funktion und über diese Funktion habe ich mich in diesem Lernbericht fokussiert.
 
 ## Beschreibung
 
@@ -53,4 +53,5 @@ In der Konsole sieht es so aus:
 
 👎 Der Anfang fiel mir am schwersten, zuerst darauf zu kommen, wie ich es umsetzen möchte, wie ich die ersten Bausteine setze. Die Übersicht im Code zu behalten und die Klammern richtig zu setzen, fiel mir manchmal schwer. Als der Code beinahe fertig war, hatte ich das Gefühl den Code zu unübersichtlich geschrieben zu haben, was mich ärgert.
 
-**VBV**: Ich möchte beim nächsten Mal meinen Code übersichtlicher schreiben und einteilen, damit er besser zum ansehen und verstehen ist.
+**VBV**: Ich möchte beim nächsten Mal meinen Code übersichtlicher schreiben und einteilen, damit er besser zum ansehen und verstehen ist. Indem ich immer bevor ich den Code fertigstelle, nochmal darüber gehe und ihn schön übersichtlich schreib, evtl. auch Refactoring anwenden.
+
