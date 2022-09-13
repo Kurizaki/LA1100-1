@@ -121,4 +121,4 @@ Explorative Tests wurden von Pascal Oestrich durchgeführt.
 
 ## 6 Auswerten
 
-✍️ Fügen Sie hier eine Verknüpfung zu Ihrem Lern-Bericht ein.
+[Lern Bericht](https://github.com/Kurizaki/LA1100-1/blob/main/Lern_Bericht.md)
