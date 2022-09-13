@@ -53,4 +53,4 @@ In der Konsole sieht es so aus:
 
 👎 Der Anfang fiel mir am schwersten, zuerst darauf zu kommen, wie ich es umsetzen möchte, wie ich die ersten Bausteine setze. Die Übersicht im Code zu behalten und die Klammern richtig zu setzen, fiel mir manchmal schwer. Als der Code beinahe fertig war, hatte ich das Gefühl den Code zu unübersichtlich geschrieben zu haben, was mich ärgert.
 
-**VBV**: Ich möchte beim nächsten Mal meinen Code übersichtlicher schreiben und einteilen, damit er besser ist zum Ansehen und zu verstehen.
+**VBV**: Ich möchte beim nächsten Mal meinen Code übersichtlicher schreiben und einteilen, damit er besser zum ansehen und verstehen ist.
